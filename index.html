@@ -1,71 +1,194 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Irsyad Wihendy</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio Irsyad</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 
-<div class="container">
-    <div class="left">
-        <div class="logo">
-            <h3>Irsyad Wihendy</h3>
-            <p>Desain Grafis</p>
-        </div>
+  <!-- Navbar -->
+  <header>
+    <div class="logo">Irsyad<span>.</span></div>
 
-        <div class="profile-img">
-            <img <img src="https://i.pravatar.cc/300" alt="foto">
-        </div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skill">Skill</a>
+      <a href="#project">Project</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-        <div class="skills">
-            <h3>Skill Software</h3>
-            <p>Adobe Illustrator</p>
-            <p>Adobe Photoshop</p>
-            <p>Figma, Canva, CapCut</p>
-        </div>
+  <!-- Hero -->
+  <section class="hero" id="home">
+
+    <div class="hero-text">
+      <h3>Halo Semua 👋</h3>
+      <h1>Saya <span>Irsyad Wihendy</span></h1>
+      <h2>Frontend Developer & UI Designer</h2>
+
+      <p>
+        Saya mahasiswa Teknik Informatika yang suka membuat
+        website modern, aesthetic, dan responsive menggunakan
+        HTML, CSS, dan JavaScript.
+      </p>
+
+      <div class="btn-group">
+        <a href="#contact" class="btn">Hubungi Saya</a>
+        <a href="#project" class="btn btn2">Lihat Project</a>
+      </div>
+
+      <div class="social">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-tiktok"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+      </div>
     </div>
 
-    <div class="right">
-        <h1>Hai, Saya <span>Irsyad</span></h1>
-
-        <h2>Perkenalan Tentang Saya</h2>
-        <p>
-            Nama lengkap saya Irsyad Wihendy. Saya seorang mahasiswa yang
-            memiliki minat dalam desain grafis dan pengalaman freelance.
-        </p>
-
-        <p>
-            Saya memiliki skill desain grafis, videografi, dan fotografi.
-            Saya juga menguasai software seperti Adobe Illustrator,
-            Photoshop, Figma, Canva, dan CapCut.
-        </p>
-
-        <div class="info">
-            <div>
-                <h3>Hard Skill</h3>
-                <p>Desain Grafis</p>
-                <p>Videografi</p>
-                <p>Fotografi</p>
-            </div>
-
-            <div>
-                <h3>Soft Skill</h3>
-                <p>Kepemimpinan</p>
-                <p>Kolaborasi</p>
-                <p>Kreativitas</p>
-            </div>
-
-            <div>
-                <h3>Kontak</h3>
-                <p>Instagram: @irsyad</p>
-                <p>WA: 08xxxx</p>
-                <p>Email: irsyad@email.com</p>
-            </div>
-        </div>
+    <div class="hero-image">
+      <img src="https://tse2.mm.bing.net/th/id/OIP.F5J2SWk4vC74j5dGV7E1tAHaFj?pid=Api&h=220&P=0">
     </div>
-</div>
+
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+
+    <div class="about-image">
+      <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1000&auto=format&fit=crop" alt="about">
+    </div>
+
+    <div class="about-text">
+      <h2>Tentang Saya</h2>
+
+      <p>
+        Saya adalah mahasiswa yang memiliki minat besar di dunia
+        teknologi dan desain web modern.
+      </p>
+
+      <p>
+        Saya suka belajar coding, membuat UI website premium,
+        editing video, dan desain visual yang aesthetic.
+      </p>
+
+      <div class="info">
+
+        <div class="box">
+          <h3>Experience</h3>
+          <p>2 Tahun Belajar Coding</p>
+        </div>
+
+        <div class="box">
+          <h3>Project</h3>
+          <p>20+ Website</p>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Skill -->
+  <section class="skills" id="skill">
+
+    <h2 class="title">Keahlian Saya</h2>
+
+    <div class="skill-container">
+
+      <div class="skill-card">
+        <i class="fab fa-html5"></i>
+        <h3>HTML5</h3>
+      </div>
+
+      <div class="skill-card">
+        <i class="fab fa-css3-alt"></i>
+        <h3>CSS3</h3>
+      </div>
+
+      <div class="skill-card">
+        <i class="fab fa-js"></i>
+        <h3>JavaScript</h3>
+      </div>
+
+      <div class="skill-card">
+        <i class="fab fa-figma"></i>
+        <h3>UI Design</h3>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Project -->
+  <section class="projects" id="project">
+
+    <h2 class="title">Project Saya</h2>
+
+    <div class="project-container">
+
+      <div class="project-card">
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1000&auto=format&fit=crop" alt="">
+
+        <div class="project-info">
+          <h3>Website Portfolio</h3>
+          <p>Website modern menggunakan HTML & CSS.</p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?q=80&w=1000&auto=format&fit=crop" alt="">
+
+        <div class="project-info">
+          <h3>Dashboard Admin</h3>
+          <p>Tampilan dashboard premium dan responsive.</p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1000&auto=format&fit=crop" alt="">
+
+        <div class="project-info">
+          <h3>Landing Page</h3>
+          <p>Landing page aesthetic dan modern.</p>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+
+    <h2 class="title">Hubungi Saya</h2>
+
+    <form>
+
+      <input type="text" placeholder="Nama Lengkap" required>
+
+      <input type="email" placeholder="Email" required>
+
+      <textarea rows="6" placeholder="Pesan"></textarea>
+
+      <button type="submit">Kirim Pesan</button>
+
+    </form>
+
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Irsyad Wihendy | All Rights Reserved</p>
+  </footer>
 
 </body>
 </html>
